@@ -1,7 +1,3 @@
-import { ApplicationService } from '@node-di-example/services'
-
-const bootstrap = () => {
-  ApplicationService.run('Hello!')
-}
+import { bootstrap } from './application'
 
 bootstrap();

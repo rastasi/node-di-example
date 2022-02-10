@@ -4,7 +4,7 @@
   "description": "",
   "scripts": {
     "start": "ts-node --project ./tsconfig.json ./src/index.ts",
-    "test": "ts-node --project ./tsconfig.test.json ./__test__/index.test.ts"
+    "test": "jest"
   },
   "author": "Zsolt Tasnadi",
   "license": "ISC",

@@ -1,0 +1,1 @@
+export { ApplicationServiceMock as ApplicationService } from './application.service.mock';

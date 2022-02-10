@@ -1,0 +1,20 @@
+{
+  "extends": "./tsconfig.common.json",
+  "compilerOptions": {
+    "paths": {
+      "@node-di-example/services": [
+        "./services"
+      ],
+    },
+    "outDir": "./dist",
+    "baseUrl": "./src",
+  },
+  "include": [
+    "src/**/*",
+    "__test__"
+  ],
+  "exclude": [
+    "node_modules",
+    "**/*.spec.ts"
+  ]
+}
